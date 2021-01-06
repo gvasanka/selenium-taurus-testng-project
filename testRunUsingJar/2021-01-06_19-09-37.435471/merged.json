@@ -1,0 +1,15 @@
+{
+ "execution": [
+  {
+   "executor": "selenium",
+   "runner": "testng",
+   "iterations": 3,
+   "scenario": "simple-testng-test"
+  }
+ ],
+ "scenarios": {
+  "simple-testng-test": {
+   "script": "selenium-taurus-testng-project-0.0.1-SNAPSHOT-jar-with-dependencies.jar"
+  }
+ }
+}

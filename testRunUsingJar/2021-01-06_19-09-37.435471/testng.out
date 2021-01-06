@@ -1,0 +1,12 @@
+FacebookLogin.testFacebookLogin,Total:2 Passed:1 Failed:0
+GoogleSearchForText.testGoogleDotCom,Total:3 Passed:2 Failed:0
+GoogleSearchForText.testGoogleSearchForIn28minutes,Total:4 Passed:2 Failed:1
+FacebookLogin.testFacebookPageLoad,Total:4 Passed:3 Failed:1
+GoogleSearchForText.testGoogleDotCom,Total:6 Passed:4 Failed:1
+FacebookLogin.testFacebookLogin,Total:7 Passed:5 Failed:1
+GoogleSearchForText.testGoogleSearchForIn28minutes,Total:8 Passed:5 Failed:2
+FacebookLogin.testFacebookPageLoad,Total:8 Passed:5 Failed:3
+GoogleSearchForText.testGoogleDotCom,Total:10 Passed:6 Failed:3
+FacebookLogin.testFacebookLogin,Total:11 Passed:7 Failed:3
+GoogleSearchForText.testGoogleSearchForIn28minutes,Total:12 Passed:7 Failed:4
+FacebookLogin.testFacebookPageLoad,Total:12 Passed:7 Failed:5

@@ -1,0 +1,227 @@
+[2021-01-06 19:09:37,382 INFO root] Taurus CLI Tool v1.15.1
+[2021-01-06 19:09:37,383 DEBUG root] Build: 13973 Fri Oct 30 09:16:46 UTC 2020
+[2021-01-06 19:09:37,383 DEBUG root] Extended git info:  3fecb4b9 Release 1.15.1 (#1420)
+[2021-01-06 19:09:37,383 DEBUG root] Command-line options: {'log': '/var/folders/bx/61rmtysn341_z7_gkzxqxf3m0000gp/T/bzt_1xvq807i.log', 'option': None, 'quiet': None, 'verbose': None, 'no_system_configs': None, 'aliases': []}
+[2021-01-06 19:09:37,383 DEBUG root] Python: CPython 3.7.9
+[2021-01-06 19:09:37,383 DEBUG root] OS: uname_result(system='Darwin', node='342-MC-C02Y33GKJG5H.local', release='20.2.0', version='Darwin Kernel Version 20.2.0: Wed Dec  2 20:39:59 PST 2020; root:xnu-7195.60.75~1/RELEASE_X86_64', machine='x86_64', processor='i386')
+[2021-01-06 19:09:37,383 INFO root] Starting with configs: ['tarusTest.yml']
+[2021-01-06 19:09:37,383 DEBUG root] Using personal config: /Users/asankav/.bzt-rc
+[2021-01-06 19:09:37,383 INFO Engine] Configuring...
+[2021-01-06 19:09:37,401 DEBUG Engine] Base configs list: ['/usr/local/Cellar/bzt/1.15.1/libexec/lib/python3.7/site-packages/bzt/resources/10-base-config.yml']
+[2021-01-06 19:09:37,401 DEBUG Engine.Configuration] Configs: ['/usr/local/Cellar/bzt/1.15.1/libexec/lib/python3.7/site-packages/bzt/resources/10-base-config.yml']
+[2021-01-06 19:09:37,402 DEBUG Engine.Configuration] Reading /usr/local/Cellar/bzt/1.15.1/libexec/lib/python3.7/site-packages/bzt/resources/10-base-config.yml as YAML
+[2021-01-06 19:09:37,424 DEBUG Engine] User configs list: ['/Users/asankav/.bzt-rc', 'tarusTest.yml']
+[2021-01-06 19:09:37,424 DEBUG Engine.Configuration] Configs: ['/Users/asankav/.bzt-rc', 'tarusTest.yml']
+[2021-01-06 19:09:37,425 DEBUG Engine.Configuration] Reading /Users/asankav/.bzt-rc as YAML
+[2021-01-06 19:09:37,428 DEBUG Engine.Configuration] Reading tarusTest.yml as YAML
+[2021-01-06 19:09:37,429 DEBUG Engine.Configuration] Configs: ['/Users/asankav/.bzt-rc', 'tarusTest.yml']
+[2021-01-06 19:09:37,430 DEBUG Engine.Configuration] Reading /Users/asankav/.bzt-rc as YAML
+[2021-01-06 19:09:37,433 DEBUG Engine.Configuration] Reading tarusTest.yml as YAML
+[2021-01-06 19:09:37,435 DEBUG Engine] Requesting updates info: https://gettaurus.org/updates/?version=1.15.1&installID=macos-acde48001122
+[2021-01-06 19:09:37,435 DEBUG HTTPClient] Making HTTP request GET https://gettaurus.org/updates/?version=1.15.1&installID=macos-acde48001122
+[2021-01-06 19:09:37,435 INFO Engine] Artifacts dir: /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471
+[2021-01-06 19:09:37,436 DEBUG Engine] New artifact filename: /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/effective
+[2021-01-06 19:09:37,437 DEBUG Engine.Configuration] Dumping YAML config into /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/effective.yml
+[2021-01-06 19:09:37,451 DEBUG urllib3.connectionpool] Starting new HTTPS connection (1): gettaurus.org:443
+[2021-01-06 19:09:37,453 DEBUG Engine.Configuration] Dumping JSON config into /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/effective.json
+[2021-01-06 19:09:37,454 DEBUG Engine] New artifact filename: /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/merged.yml
+[2021-01-06 19:09:37,454 DEBUG Engine.Configuration] Dumping YAML config into /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/merged.yml
+[2021-01-06 19:09:37,455 DEBUG Engine] New artifact filename: /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/merged.json
+[2021-01-06 19:09:37,455 DEBUG Engine.Configuration] Dumping JSON config into /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/merged.json
+[2021-01-06 19:09:37,456 DEBUG Engine] Add existing artifact (move=False): tarusTest.yml
+[2021-01-06 19:09:37,456 DEBUG Engine] Copying tarusTest.yml to /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/tarusTest.yml
+[2021-01-06 19:09:37,456 DEBUG Engine] Set PYTHONPATH to '/Users/asankav/.bzt/python-packages/3.7.9' + '/Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/python-packages/3.7.9' + 
+[2021-01-06 19:09:37,456 DEBUG Engine] Content of user packages dir: %s
+[2021-01-06 19:09:37,457 DEBUG Engine] OS env: OBJC_DISABLE_INITIALIZE_FORK_SAFETY=YES
+[2021-01-06 19:09:37,457 DEBUG Engine] OS env: TAURUS_ARTIFACTS_DIR=/Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471
+[2021-01-06 19:09:37,457 DEBUG root] Closing log handler: /var/folders/bx/61rmtysn341_z7_gkzxqxf3m0000gp/T/bzt_1xvq807i.log
+[2021-01-06 19:09:37,457 DEBUG root] Switched writing logs to /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/bzt.log
+[2021-01-06 19:09:37,457 DEBUG root] Linting config
+[2021-01-06 19:09:37,459 INFO Engine] Preparing...
+[2021-01-06 19:09:37,460 DEBUG Engine] Module config: consolidator {'class': 'bzt.modules.aggregator.ConsolidatingAggregator'}
+[2021-01-06 19:09:37,460 DEBUG root] Importing module: bzt.modules.aggregator
+[2021-01-06 19:09:37,592 DEBUG root] Loading class: 'ConsolidatingAggregator' from <module 'bzt.modules.aggregator' from '/usr/local/Cellar/bzt/1.15.1/libexec/lib/python3.7/site-packages/bzt/modules/aggregator.py'>
+[2021-01-06 19:09:37,592 DEBUG Engine.consolidator] Buffer scaling setup: percentile 95.0 from [0.0, 50.0, 90.0, 95.0, 99.0, 99.9, 100.0] selected
+[2021-01-06 19:09:37,592 DEBUG Engine] Module config: monitoring {'class': 'bzt.modules.monitoring.Monitoring'}
+[2021-01-06 19:09:37,592 DEBUG root] Importing module: bzt.modules.monitoring
+[2021-01-06 19:09:37,594 DEBUG root] Loading class: 'Monitoring' from <module 'bzt.modules.monitoring' from '/usr/local/Cellar/bzt/1.15.1/libexec/lib/python3.7/site-packages/bzt/modules/monitoring.py'>
+[2021-01-06 19:09:37,594 DEBUG Engine] Module config: local {'class': 'bzt.modules.provisioning.Local'}
+[2021-01-06 19:09:37,594 DEBUG root] Importing module: bzt.modules.provisioning
+[2021-01-06 19:09:37,594 DEBUG root] Loading class: 'Local' from <module 'bzt.modules.provisioning' from '/usr/local/Cellar/bzt/1.15.1/libexec/lib/python3.7/site-packages/bzt/modules/provisioning.py'>
+[2021-01-06 19:09:37,594 DEBUG Engine] Module config: selenium {'class': 'bzt.modules.selenium.SeleniumExecutor'}
+[2021-01-06 19:09:37,594 DEBUG root] Importing module: bzt.modules.selenium
+[2021-01-06 19:09:37,595 DEBUG root] Loading class: 'SeleniumExecutor' from <module 'bzt.modules.selenium' from '/usr/local/Cellar/bzt/1.15.1/libexec/lib/python3.7/site-packages/bzt/modules/selenium.py'>
+[2021-01-06 19:09:37,595 DEBUG Engine.local] Preparing executor: selenium/4607838480
+[2021-01-06 19:09:37,596 DEBUG Engine.selenium] Using script type: testng
+[2021-01-06 19:09:37,596 DEBUG Engine] Module config: testng {'class': 'bzt.modules.java.TestNGTester'}
+[2021-01-06 19:09:37,596 DEBUG root] Importing module: bzt.modules.java
+[2021-01-06 19:09:37,608 DEBUG root] Loading class: 'TestNGTester' from <module 'bzt.modules.java' from '/usr/local/Cellar/bzt/1.15.1/libexec/lib/python3.7/site-packages/bzt/modules/java/__init__.py'>
+[2021-01-06 19:09:37,608 DEBUG Engine] New artifact filename: /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/testng.out
+[2021-01-06 19:09:37,608 DEBUG Engine] New artifact filename: /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/testng.err
+[2021-01-06 19:09:37,608 DEBUG Engine] New artifact filename: /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/runner.properties
+[2021-01-06 19:09:37,608 DEBUG Engine] New artifact filename: /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/classes
+[2021-01-06 19:09:37,609 DEBUG Engine] New artifact filename: /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/TestNGTester.ldjson
+[2021-01-06 19:09:37,609 DEBUG Engine.testng.SeleniumServer] Trying SeleniumServer: /Users/asankav/.bzt/selenium-taurus/selenium-server-3.141.0.jar
+[2021-01-06 19:09:37,609 DEBUG root] Executing shell: ['java', '-jar', '/Users/asankav/.bzt/selenium-taurus/selenium-server-3.141.0.jar', '-help'] at .
+[2021-01-06 19:09:37,778 DEBUG Engine.testng.SeleniumServer] SeleniumServer output: Usage: <main class> [options]
+  Options:
+    --debug, -debug
+      <Boolean> : enables LogLevel.FINE.
+      Default: false
+    --version, -version
+      Displays the version and exits.
+      Default: false
+    -browserTimeout
+      <Integer> in seconds : number of seconds a browser session is allowed to 
+      hang while a WebDriver command is running (example: driver.get(url)). If 
+      the timeout is reached while a WebDriver command is still processing, 
+      the session will quit. Minimum value is 60. An unspecified, zero, or 
+      negative value means wait indefinitely. If a node does not specify it, 
+      the hub value will be used.
+    -config
+      <String> filename : JSON configuration file for the standalone server. 
+      Overrides default values
+    -host
+      <String> IP or hostname : usually determined automatically. Most 
+      commonly useful in exotic network configurations (e.g. network with VPN)
+    -jettyThreads, -jettyMaxThreads
+      <Integer> : max number of threads for Jetty. An unspecified, zero, or 
+      negative value means the Jetty default value (200) will be used.
+    -log
+      <String> filename : the filename to use for logging. If omitted, will 
+      log to STDOUT
+    -port
+      <Integer> : the port number the server will use.
+    -role
+      <String> options are [hub], [node], or [standalone].
+    -timeout, -sessionTimeout
+      <Integer> in seconds : Specifies the timeout before the server 
+      automatically kills a session that hasn't had any activity in the last X 
+      seconds. The test slot will then be released for another test to use. 
+      This is typically used to take care of client crashes. For grid hub/node 
+      roles, cleanUpCycle must also be set. If a node does not specify it, the 
+      hub value will be used.
+
+[2021-01-06 19:09:37,778 DEBUG Engine.testng.TclLibrary] We don't need to check tcl library on this platform
+[2021-01-06 19:09:37,778 DEBUG Engine.testng.JavaVM] Trying JavaVM: ['java', '-version']
+[2021-01-06 19:09:37,779 DEBUG root] Executing shell: ['java', '-version'] at .
+[2021-01-06 19:09:37,855 DEBUG Engine.testng.JavaVM] JavaVM output: java version "1.8.0_261"
+Java(TM) SE Runtime Environment (build 1.8.0_261-b12)
+Java HotSpot(TM) 64-Bit Server VM (build 25.261-b12, mixed mode)
+
+[2021-01-06 19:09:37,856 DEBUG Engine] Module config: final-stats {'class': 'bzt.modules.reporting.FinalStatus'}
+[2021-01-06 19:09:37,856 DEBUG root] Importing module: bzt.modules.reporting
+[2021-01-06 19:09:37,870 DEBUG easyprocess] version=0.3
+[2021-01-06 19:09:37,872 DEBUG pyvirtualdisplay] version=1.3.2
+[2021-01-06 19:09:37,874 DEBUG root] Loading class: 'FinalStatus' from <module 'bzt.modules.reporting' from '/usr/local/Cellar/bzt/1.15.1/libexec/lib/python3.7/site-packages/bzt/modules/reporting.py'>
+[2021-01-06 19:09:37,874 DEBUG Engine] Module config: console {'class': 'bzt.modules.console.ConsoleStatusReporter'}
+[2021-01-06 19:09:37,874 DEBUG root] Importing module: bzt.modules.console
+[2021-01-06 19:09:37,874 DEBUG root] Loading class: 'ConsoleStatusReporter' from <module 'bzt.modules.console' from '/usr/local/Cellar/bzt/1.15.1/libexec/lib/python3.7/site-packages/bzt/modules/console.py'>
+[2021-01-06 19:09:37,891 DEBUG Engine.Configuration] Dumping YAML config into /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/effective.yml
+[2021-01-06 19:09:37,906 DEBUG Engine.Configuration] Dumping JSON config into /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/effective.json
+[2021-01-06 19:09:37,907 INFO Engine] Starting...
+[2021-01-06 19:09:37,907 DEBUG Engine] Startup <bzt.modules.monitoring.Monitoring object at 0x10bed6050>
+[2021-01-06 19:09:37,907 DEBUG Engine] Startup <bzt.modules.aggregator.ConsolidatingAggregator object at 0x109bbeb50>
+[2021-01-06 19:09:37,907 DEBUG Engine] Startup <bzt.modules.reporting.FinalStatus object at 0x112b2c450>
+[2021-01-06 19:09:37,907 DEBUG Engine] Startup <bzt.modules.console.ConsoleStatusReporter object at 0x112b40a50>
+[2021-01-06 19:09:37,907 INFO Engine.console] Waiting for results...
+[2021-01-06 19:09:37,908 DEBUG Engine] Startup <bzt.modules.provisioning.Local object at 0x112a54250>
+[2021-01-06 19:09:37,908 DEBUG Engine.local] Delay setup for selenium/4607838480: 0(start-at) + 0(delay) = 0
+[2021-01-06 19:09:37,909 DEBUG Engine.Configuration] Dumping YAML config into /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/effective.yml
+[2021-01-06 19:09:37,922 DEBUG Engine.Configuration] Dumping JSON config into /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/effective.json
+[2021-01-06 19:09:37,923 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2021-01-06 19:09:37,923 DEBUG root] Leveled up log file verbosity
+[2021-01-06 19:09:37,924 DEBUG root] Executing shell: ['java', '-cp', '/Users/asankav/.bzt/selenium-taurus/testng-6.8.5.jar:/Users/asankav/.bzt/selenium-taurus/selenium-server-3.141.0.jar:/Users/asankav/.bzt/selenium-taurus/hamcrest-core-1.3.jar:/Users/asankav/.bzt/selenium-taurus/json.jar:/Users/asankav/.bzt/selenium-taurus/taurus-java-helpers-1.9.jar:/Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/selenium-taurus-testng-project-0.0.1-SNAPSHOT-jar-with-dependencies.jar', 'com.blazemeter.taurus.testng.TestNGRunner', '/Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/runner.properties'] at /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar
+[2021-01-06 19:09:37,929 DEBUG Engine.local] Starting execution: selenium/4607838480, rest of available slots: 9223372036854775806
+[2021-01-06 19:09:37,929 DEBUG root] Leveling down log file verbosity to INFO, use -v option to have DEBUG messages enabled
+[2021-01-06 19:09:38,142 INFO Engine.console] Waiting for finish...
+[2021-01-06 19:09:53,005 INFO LoadSamplesReader] Changed data analysis delay to 14s
+[2021-01-06 19:10:12,091 INFO LoadSamplesReader] Changed data analysis delay to 20s
+[2021-01-06 19:10:37,256 WARNING Engine] Please wait for graceful shutdown...
+[2021-01-06 19:10:37,262 DEBUG root] Leveled up log file verbosity
+[2021-01-06 19:10:37,262 INFO Engine] Shutting down...
+[2021-01-06 19:10:37,266 DEBUG Engine] Current stop reason: None
+[2021-01-06 19:10:37,266 DEBUG Engine.local] Shutdown selenium/4607838480
+[2021-01-06 19:10:37,267 DEBUG Engine.selenium] Selenium tests ran for 59.34331703186035 seconds
+[2021-01-06 19:10:37,267 DEBUG Engine.console] Restoring logging streams, [<StreamHandler (INFO)>]/{<StreamHandler (INFO)>: <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'>}
+[2021-01-06 19:10:37,269 DEBUG Engine.Configuration] Dumping YAML config into /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/effective.yml
+[2021-01-06 19:10:37,289 DEBUG Engine.Configuration] Dumping JSON config into /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/effective.json
+[2021-01-06 19:10:37,290 INFO Engine] Post-processing...
+[2021-01-06 19:10:37,291 DEBUG Engine.local] Post-process selenium/4607838480
+[2021-01-06 19:10:37,291 DEBUG LoadSamplesReader] Buffer len: 3; Known errors count: 4
+[2021-01-06 19:10:37,291 DEBUG LoadSamplesReader] Aggregating: 1609940418, 3 in buffer
+[2021-01-06 19:10:37,292 DEBUG aggregator] Growing HDR from 10000.0 to 11000.0
+[2021-01-06 19:10:37,292 DEBUG aggregator] Growing HDR from 10000.0 to 11000.0
+[2021-01-06 19:10:37,294 DEBUG LoadSamplesReader] Aggregating: 1609940426, 2 in buffer
+[2021-01-06 19:10:37,298 DEBUG LoadSamplesReader] Aggregating: 1609940428, 1 in buffer
+[2021-01-06 19:10:37,300 DEBUG LoadSamplesReader] Buffer len: 0; Known errors count: 4
+[2021-01-06 19:10:37,300 DEBUG Engine.consolidator] Consolidator buffer[4]: dict_keys([1609940408, 1609940418, 1609940426, 1609940428])
+[2021-01-06 19:10:37,300 DEBUG Engine.consolidator] Merging into 1609940408
+[2021-01-06 19:10:37,301 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2021-01-06 19:10:37,373 DEBUG Engine.consolidator] Processed datapoint: 1609940408/ConsolidatingAggregator@4458277712
+[2021-01-06 19:10:37,373 DEBUG Engine.consolidator] Merging into 1609940418
+[2021-01-06 19:10:37,373 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2021-01-06 19:10:37,373 DEBUG aggregator] Growing HDR from 10000.0 to 11000.0
+[2021-01-06 19:10:37,444 DEBUG Engine.consolidator] Processed datapoint: 1609940418/ConsolidatingAggregator@4458277712
+[2021-01-06 19:10:37,444 DEBUG Engine.consolidator] Merging into 1609940426
+[2021-01-06 19:10:37,444 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2021-01-06 19:10:37,496 DEBUG Engine.consolidator] Processed datapoint: 1609940426/ConsolidatingAggregator@4458277712
+[2021-01-06 19:10:37,496 DEBUG Engine.consolidator] Merging into 1609940428
+[2021-01-06 19:10:37,496 DEBUG Engine.consolidator] Bypassing consolidation because of single result
+[2021-01-06 19:10:37,568 DEBUG Engine.consolidator] Processed datapoint: 1609940428/ConsolidatingAggregator@4458277712
+[2021-01-06 19:10:37,568 INFO Engine.final-stats] Test duration: 0:01:00
+[2021-01-06 19:10:37,569 INFO Engine.final-stats] Samples count: 12, 41.67% failures
+[2021-01-06 19:10:37,569 INFO Engine.final-stats] Average times: total 7.639, latency 0.000, connect 0.000
+[2021-01-06 19:10:37,570 INFO Engine.final-stats] Percentiles:
+(0lqqqqqqqqqqqqqqqwqqqqqqqqqqqqqqqk(B
+(0x(B Percentile, % (0x(B Resp. Time, s (0x(B
+(0tqqqqqqqqqqqqqqqnqqqqqqqqqqqqqqqu(B
+(0x(B           0.0 (0x(B         4.832 (0x(B
+(0x(B          50.0 (0x(B         8.012 (0x(B
+(0x(B          90.0 (0x(B        10.112 (0x(B
+(0x(B          95.0 (0x(B         10.24 (0x(B
+(0x(B          99.0 (0x(B         10.24 (0x(B
+(0x(B          99.9 (0x(B         10.24 (0x(B
+(0x(B         100.0 (0x(B         10.24 (0x(B
+(0mqqqqqqqqqqqqqqqvqqqqqqqqqqqqqqqj(B
+[2021-01-06 19:10:37,578 INFO Engine.final-stats] Request label stats:
+(0lqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqwqqqqqqqqwqqqqqqqqqwqqqqqqqqwqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqk(B
+(0x(B label                          (0x(B status (0x(B    succ (0x(B avg_rt (0x(B error                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      (0x(B
+(0tqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqnqqqqqqqqnqqqqqqqqqnqqqqqqqqnqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqu(B
+(0x(B testFacebookLogin              (0x(B   OK   (0x(B 100.00% (0x(B  8.812 (0x(B                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            (0x(B
+(0x(B testFacebookPageLoad           (0x(B  FAIL  (0x(B  33.33% (0x(B  8.903 (0x(B AssertionError: expected [Error] but found [Facebook â log in or sign up]                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                (0x(B
+(0x(B testGoogleDotCom               (0x(B   OK   (0x(B 100.00% (0x(B  7.725 (0x(B                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            (0x(B
+(0x(B testGoogleSearchForIn28minutes (0x(B  FAIL  (0x(B   0.00% (0x(B  5.116 (0x(B NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#lst\-ib"}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B   (Session info: chrome=87.0.4280.88)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:22:52'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B System info: host: '342-MC-C02Y33GKJG5H.local', ip: 'fe80:0:0:0:1050:6f1c:a99f:57d3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_261'                                                                                                                                                                                                                                                                                                                                                                                                                           (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B Driver info: org.openqa.selenium.chrome.ChromeDriver                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/bx/61rmtysn341...}, goog:chromeOptions: {debuggerAddress: localhost:60806}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true} (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B Session ID: 470c7f29997585cc38675c8f9bc33172                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B *** Element info: {Using=id, value=lst-ib}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#lst\-ib"}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B   (Session info: chrome=87.0.4280.88)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:22:52'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B System info: host: '342-MC-C02Y33GKJG5H.local', ip: 'fe80:0:0:0:1050:6f1c:a99f:57d3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_261'                                                                                                                                                                                                                                                                                                                                                                                                                           (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B Driver info: org.openqa.selenium.chrome.ChromeDriver                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/bx/61rmtysn341...}, goog:chromeOptions: {debuggerAddress: localhost:60726}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true} (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B Session ID: 0b587a36dc0a0d6e2c5d30789668d43e                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B *** Element info: {Using=id, value=lst-ib}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"#lst\-ib"}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                         (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B   (Session info: chrome=87.0.4280.88)                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B Build info: version: '3.141.0', revision: '2ecb7d9a', time: '2018-10-31T20:22:52'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B System info: host: '342-MC-C02Y33GKJG5H.local', ip: 'fe80:0:0:0:1050:6f1c:a99f:57d3%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.16', java.version: '1.8.0_261'                                                                                                                                                                                                                                                                                                                                                                                                                           (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B Driver info: org.openqa.selenium.chrome.ChromeDriver                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.88, chrome: {chromedriverVersion: 87.0.4280.88 (89e2380a3e36c..., userDataDir: /var/folders/bx/61rmtysn341...}, goog:chromeOptions: {debuggerAddress: localhost:60669}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true} (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B Session ID: 03c721cc7b2a9af7c8d2fe293960fd88                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               (0x(B
+(0x(B                                (0x(B        (0x(B         (0x(B        (0x(B *** Element info: {Using=id, value=lst-ib}                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 (0x(B
+(0mqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqvqqqqqqqqvqqqqqqqqqvqqqqqqqqvqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqqj(B
+[2021-01-06 19:10:37,581 DEBUG Engine.console] No logger_handler or orig_stream was detected
+[2021-01-06 19:10:37,583 DEBUG Engine.Configuration] Dumping YAML config into /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/effective.yml
+[2021-01-06 19:10:37,606 DEBUG Engine.Configuration] Dumping JSON config into /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/effective.json
+[2021-01-06 19:10:37,607 INFO root] Artifacts dir: /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471
+[2021-01-06 19:10:37,608 INFO root] Done performing with code: 0
+[2021-01-06 19:10:37,608 DEBUG root] Closing log handler: /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/bzt.log

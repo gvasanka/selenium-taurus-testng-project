@@ -1,0 +1,93 @@
+Jan 06, 2021 7:09:38 PM com.blazemeter.taurus.testng.TestNGRunner main
+INFO: Starting: [/Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/runner.properties]
+Jan 06, 2021 7:09:38 PM com.blazemeter.taurus.reporting.TaurusReporter <init>
+INFO: File: /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/2021-01-06_19-09-37.435471/TestNGTester.ldjson, formatter: JSONFormatter
+Jan 06, 2021 7:09:38 PM com.blazemeter.taurus.testng.TestNGRunner setupTestNG
+INFO: Using TestNG config: /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/testng.xml
+Jan 06, 2021 7:09:38 PM com.blazemeter.taurus.testng.TestListener onStart
+INFO: onStart
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+SSttaarrttiinngg  CChhrroommeeDDrriivveerr  8877..00..44228800..8888  ((8899ee22338800aa33ee3366cc33446644bb55dddd11330022334499b1382549290d-refs/branch-heba1d3s8/245248902@9{0#d1-7r6e1f}s)/ borna npcohr-th e1a9d5s1/84
+Only local con2n8e0c@t{i#o1n7s a6r1e} a)l loweodn. 
+Please spee ohrttt p2s3:8/0/2c
+Onhlyr olmoecdarli vceorn.ncehcrtoimoinusm .aorreg /aslelcouwreidt.y
+Pleas-e csoeensid ehrtattpiso:n/s/ cfhorro mseudgrgievsetri.ocnhsr oomni ukme.eoprign/gs eCchurroimteyD-rciovnesri dsearfaet.i
+ons for suggestions on keeping ChromeDriver safe.
+ChromeDriver Cwahsr osmteaDrrtievde rs uwcacse ssstfaurltleyd. 
+successfully.
+Jan 06, 2021 7:09:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 06, 2021 7:09:40 PM com.blazemeter.taurus.testng.TestListener onConfigurationSuccess
+INFO: onConfigurationSuccess
+Jan 06, 2021 7:09:40 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 06, 2021 7:09:40 PM com.blazemeter.taurus.testng.TestListener onConfigurationSuccess
+INFO: onConfigurationSuccess
+Jan 06, 2021 7:09:52 PM com.blazemeter.taurus.testng.TestListener onConfigurationSuccess
+INFO: onConfigurationSuccess
+Jan 06, 2021 7:09:56 PM com.blazemeter.taurus.testng.TestListener onConfigurationSuccess
+INFO: onConfigurationSuccess
+Jan 06, 2021 7:09:56 PM com.blazemeter.taurus.testng.TestListener onFinish
+INFO: onFinish
+Jan 06, 2021 7:09:56 PM com.blazemeter.taurus.testng.TestNGRunner main
+INFO: Elapsed: 18915, limit: 0.0
+Jan 06, 2021 7:09:56 PM com.blazemeter.taurus.testng.TestNGRunner setupTestNG
+INFO: Using TestNG config: /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/testng.xml
+Jan 06, 2021 7:09:56 PM com.blazemeter.taurus.testng.TestListener onStart
+INFO: onStart
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 6017
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 16125
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jan 06, 2021 7:09:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 06, 2021 7:09:58 PM com.blazemeter.taurus.testng.TestListener onConfigurationSuccess
+INFO: onConfigurationSuccess
+Jan 06, 2021 7:09:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 06, 2021 7:09:58 PM com.blazemeter.taurus.testng.TestListener onConfigurationSuccess
+INFO: onConfigurationSuccess
+Jan 06, 2021 7:10:11 PM com.blazemeter.taurus.testng.TestListener onConfigurationSuccess
+INFO: onConfigurationSuccess
+Jan 06, 2021 7:10:16 PM com.blazemeter.taurus.testng.TestListener onConfigurationSuccess
+INFO: onConfigurationSuccess
+Jan 06, 2021 7:10:16 PM com.blazemeter.taurus.testng.TestListener onFinish
+INFO: onFinish
+Jan 06, 2021 7:10:16 PM com.blazemeter.taurus.testng.TestNGRunner main
+INFO: Elapsed: 38778, limit: 0.0
+Jan 06, 2021 7:10:16 PM com.blazemeter.taurus.testng.TestNGRunner setupTestNG
+INFO: Using TestNG config: /Users/asankav/code/gvasanka/selenium-taurus-testng-project/testRunUsingJar/testng.xml
+Jan 06, 2021 7:10:16 PM com.blazemeter.taurus.testng.TestListener onStart
+INFO: onStart
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 16627
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+Starting ChromeDriver 87.0.4280.88 (89e2380a3e36c3464b5dd1302349b1382549290d-refs/branch-heads/4280@{#1761}) on port 14969
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+ChromeDriver was started successfully.
+Jan 06, 2021 7:10:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 06, 2021 7:10:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jan 06, 2021 7:10:18 PM com.blazemeter.taurus.testng.TestListener onConfigurationSuccess
+INFO: onConfigurationSuccess
+Jan 06, 2021 7:10:18 PM com.blazemeter.taurus.testng.TestListener onConfigurationSuccess
+INFO: onConfigurationSuccess
+Jan 06, 2021 7:10:31 PM com.blazemeter.taurus.testng.TestListener onConfigurationSuccess
+INFO: onConfigurationSuccess
+Jan 06, 2021 7:10:37 PM com.blazemeter.taurus.testng.TestListener onConfigurationSuccess
+INFO: onConfigurationSuccess
+Jan 06, 2021 7:10:37 PM com.blazemeter.taurus.testng.TestListener onFinish
+INFO: onFinish
+Jan 06, 2021 7:10:37 PM com.blazemeter.taurus.testng.TestNGRunner main
+INFO: Elapsed: 58987, limit: 0.0
+Jan 06, 2021 7:10:37 PM com.blazemeter.taurus.reporting.TaurusReporter close
+INFO: Closing reporter stream
