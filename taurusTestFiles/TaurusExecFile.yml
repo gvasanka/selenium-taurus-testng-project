@@ -1,0 +1,9 @@
+execution:
+  - executor: selenium
+    ramp-up: 1m
+    hold-for: 30s
+    scenario: simple-junit-test
+
+scenarios:
+  simple-junit-test:
+    script: ./src/test/java

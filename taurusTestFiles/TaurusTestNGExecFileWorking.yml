@@ -1,0 +1,21 @@
+# https://gettaurus.org/docs/TestNG/
+
+execution:
+  - executor: selenium
+    runner: testng
+    iterations: 1
+    testng-xml: ./src/main/test-suite.xml
+    scenario: simple-testng-test
+
+scenarios:
+  simple-testng-test:
+    script: ./src
+    additional-classpath:
+      - /Users/asankav/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.2/webdrivermanager-4.2.2.jar
+      - /Users/asankav/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar
+      - /Users/asankav/.m2/repository/org/apache/httpcomponents/core5/httpcore5/5.0.1/httpcore5-5.0.1.jar
+      - /Users/asankav/.m2/repository/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar
+      - /Users/asankav/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar
+      - /Users/asankav/.m2/repository/org/apache/httpcomponents/client5/httpclient5/5.0.1/httpclient5-5.0.1.jar
+      - /Users/asankav/.m2/repository/commons-io/commons-io/2.8.0/commons-io-2.8.0.jar
+

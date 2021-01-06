@@ -1,0 +1,14 @@
+execution:
+    concurrency: 10
+    ramp-up: 1m
+    hold-for: 30s
+    scenario: simple-junit-test
+
+scenarios:
+  simple-junit-test:
+    requests:
+      - url: https://google.com
+        method: GET
+
+reporting:
+  - module: junit-xml
