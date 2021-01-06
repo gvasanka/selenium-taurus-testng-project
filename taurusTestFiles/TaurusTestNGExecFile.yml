@@ -5,7 +5,7 @@ execution:
     runner: testng
     ramp-up: 1m
     hold-for: 30s
-    testng-xml: ./src/test/test-suite.xml
+    testng-xml: ./src/test/testng.xml
     scenario: simple-testng-test
 
 scenarios:

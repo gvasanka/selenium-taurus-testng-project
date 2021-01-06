@@ -4,12 +4,12 @@ execution:
   - executor: selenium
     runner: testng
     iterations: 1
-    testng-xml: ./src/main/test-suite.xml
+    testng-xml: ../src/main/resources/testng.xml
     scenario: simple-testng-test
 
 scenarios:
   simple-testng-test:
-    script: ./src
+    script: ../src
     additional-classpath:
       - /Users/asankav/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.2/webdrivermanager-4.2.2.jar
       - /Users/asankav/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar

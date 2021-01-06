@@ -3,12 +3,9 @@
 execution:
   - executor: selenium
     runner: testng
-    iterations: 1
-    testng-xml: test-suite.xml
+    iterations: 3
     scenario: simple-testng-test
 
 scenarios:
   simple-testng-test:
-    script: ./target/selenium-exp-project-0.0.1-SNAPSHOT-jar-with-dependencies.jar
-
-
+    script: selenium-taurus-testng-project-0.0.1-SNAPSHOT-jar-with-dependencies.jar
