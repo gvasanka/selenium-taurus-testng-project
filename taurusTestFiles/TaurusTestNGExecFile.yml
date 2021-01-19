@@ -3,14 +3,14 @@
 execution:
   - executor: selenium
     runner: testng
-    ramp-up: 1m
-    hold-for: 30s
-    testng-xml: ./src/test/testng.xml
+    hold-for: 2m
+    concurrency: 3
+    testng-xml: ../src/test/resources/testng.xml
     scenario: simple-testng-test
 
 scenarios:
   simple-testng-test:
-    script: ./src
+    script: ../src
     additional-classpath:
       - /Users/asankav/.m2/repository/io/github/bonigarcia/webdrivermanager/4.2.2/webdrivermanager-4.2.2.jar
       - /Users/asankav/.m2/repository/org/apache/httpcomponents/httpclient/4.5.9/httpclient-4.5.9.jar
