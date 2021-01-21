@@ -3,7 +3,7 @@
 execution:
   - executor: selenium
     runner: testng
-    hold-for: 2m
+    hold-for: 1m
     concurrency: 3
     testng-xml: ../src/test/resources/testng.xml
     scenario: simple-testng-test

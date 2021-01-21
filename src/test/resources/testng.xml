@@ -4,7 +4,9 @@
 	<test name="ChromeSpecificTests" parallel = "classes">
 		<classes>
 			<class name="com.example.tests.FacebookLogin"/>
+			<class name="com.example.tests.FacebookLogin2"/>
 			<class name="com.example.tests.GoogleSearchForText"/>
+			<class name="com.example.tests.GoogleSearchForText2"/>
 		</classes>
 	</test>
 
