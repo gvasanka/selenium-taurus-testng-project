@@ -1,0 +1,20 @@
+execution:
+- concurrency: 5
+  ramp-up: 1m
+  hold-for: 30s
+  scenario: reach-home-page-selenium-test
+
+scenarios:
+  reach-home-page-selenium-test:
+    browser: Firefox
+    timeout: 10
+    think-time: 1s500ms
+    default-address: http://blazemeter.com
+    requests:
+    - url: /
+      assert:
+      - contains:
+        - blazemeter
+        - Trusted
+        subject: body
+        regexp: false

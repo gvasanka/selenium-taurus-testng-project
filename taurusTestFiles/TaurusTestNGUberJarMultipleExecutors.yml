@@ -1,0 +1,22 @@
+# https://gettaurus.org/docs/TestNG/
+
+execution:
+  - executor: selenium
+    runner: testng
+    iterations: 3
+    testng-xml: ../src/test/resources/testng.xml
+    scenario: simple-testng-test
+  - executor: selenium
+    runner: testng
+    iterations: 3
+    testng-xml: ../src/test/resources/testng.xml
+    scenario: simple-testng-test
+  - executor: selenium
+    runner: testng
+    iterations: 3
+    testng-xml: ../src/test/resources/testng.xml
+    scenario: simple-testng-test
+
+scenarios:
+  simple-testng-test:
+    script: ../target/selenium-taurus-testng-project-0.0.1-SNAPSHOT-fat-tests.jar
